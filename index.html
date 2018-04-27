@@ -31,18 +31,45 @@
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 <style> h1,h2{color: #B2BABB;} h3{color:#5D6D7E;}
     .qwe{
-    	background:
+	z-index:100;    	
+background:
 		url(royale.png) top right no-repeat;
     }
+.bg2{
+	z-index:70;
+	background: url(122.jpg) no-repeat;
+}
+.bg3{
+        z-index:70;
+        background: url(1222.jpg) right no-repeat;
+	background-size: 100% 100%;
+}
 
-    .outer {
-      display: table;
+.bg4{
+        z-index:70;
+        background: url(dark-web.jpg) no-repeat;
+
+}
+
+.bg5{
+        z-index:70;
+        background: url(preview.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+
+
+	.bg1{
+z-index:150;	
+background: url(dark-light.jpg) top no-repeat;
+}
+
+    .outer {      display: table;
       position: absolute;
       position: fixed;
       height: 100%;
       width: 100%;
 	background-color: black;
-	z-index: 99;
+z-index: 99;
     }
 
     .middle {
@@ -136,7 +163,7 @@
 <div class="d-xl-none d-lg-none d-md-none" width=99%>
 		      <img class="img-fluid img-profile rounded-circle" width=99% src="img/profile.jpg" alt="That's Me!" title="Yeah! That's Me.">
 			      </div>
-      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+      <section class="resume-section p-3 p-lg-5 d-flex d-column bg1" id="about">
 	      <div class="my-auto">
 		      <h1 class="mb-0">Devanshu
             <span class="text-primary">Somani</span>
@@ -214,7 +241,7 @@
 		      </div>
       </section>
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column bg3" id="education">
         <div class="my-auto">
           <h2 class="mb-5">Education</h2>
 
@@ -255,7 +282,7 @@
         </div>
       </section>
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column bg4" id="skills">
         <div class="my-auto">
           <h2 class="mb-5">Skills</h2>
 
@@ -379,23 +406,23 @@
         </div>
       </section>
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column qwe" id="interests">
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column bg2 qwe" id="interests">
         <div class="outer qwe"></div><div class="my-auto">
           <h2 class="mb-5">Interests</h2>
-          <p>Apart from being a programmer and Machine Learning enthusiast, I also like to play outdoor sports like Football.</p>
+          <p class="rt">Apart from being a programmer and Machine Learning enthusiast, I also like to play outdoor sports like Football.</p>
 
-          <p> I also have interest in landscape and abstract photography</p>
+          <p class="rt"> I also have interest in landscape and abstract photography</p>
 
-          <p>When forced inside, I like to watch thrilling and fantasy movies. My favourite movie directors are
+          <p class="rt">When forced inside, I like to watch thrilling and fantasy movies. My favourite movie directors are
            Quentin Tarantino, Martin Scorsese, Chistopher Nolan and David Fincher.</p>
 
-	  <p>I also particularly like to hear jazz and pop music. Here is the link to my <a href="https://open.spotify.com/user/devanshusomani99/playlist/6VEFs4f82TuvHFGbENfp1r" target="_blank">Spotify Playist</a>.</p>
+	  <p class="rt">I also particularly like to hear jazz and pop music. Here is the link to my <a href="https://open.spotify.com/user/devanshusomani99/playlist/6VEFs4f82TuvHFGbENfp1r" target="_blank">Spotify Playist</a>.</p>
 
             <p>I also like playing e-sports like Counter Strike.</p>
         </div>
       </section>
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column bg5" id="awards">
         <div class="my-auto">
           <h2 class="mb-5">Awards, Achievements &amp; Certifications</h2>
           <ul class="fa-ul mb-0">
