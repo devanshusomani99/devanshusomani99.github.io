@@ -1,0 +1,3 @@
+[submodule "new_theme"]
+	path = new_theme
+	url = https://github.com/StartBootstrap/startbootstrap-resume
