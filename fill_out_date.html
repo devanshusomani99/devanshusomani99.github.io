@@ -4,7 +4,8 @@
         <h1 id="demo"> </h1>
 	<script>
 	if(/Android|webOS|iPhone|iPad|BlackBerry/i.test(navigator.userAgent)){
-            if(/Chrome/i.test(navigator.userAgent)){
+            if((/Chrome/i.test(navigator.userAgent)) || (/CriOS/i.test(navigator.userAgent) &&
+/iphone|ipod|ipad/i.test(navigator.userAgent))){
 	        document.getElementById("demo").innerHTML= '<label for="start">Try to input the date 3rd August 1999 in this box:</label> <input type="date" id="start" name="trip-start" value="2022-01-28" min="1950-01-01">';
     	    }else{
   	        document.getElementById("demo").innerHTML = "Please open this page in your Mobile's Google Chrome Browser!";
