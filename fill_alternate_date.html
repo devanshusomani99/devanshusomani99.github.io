@@ -1,6 +1,11 @@
 <html>
 <body>
-<h1>Alternate Date Picker Interface</h1><br>
+  <h1 id="demo"> </h1>
+	<script>
+         //   document.getElementById("demo").innerHTML= '<label for="start">Try to input the date 3rd August 1999 in this box:</label> <input type="date" id="start" name="trip-start" value="2022-01-28" min="1950-01-01">';
+
+	if(/Android|webOS|iPhone|iPad|BlackBerry/i.test(navigator.userAgent)){
+           document.getElementById("demo").innerHTML= 'Alternate Date Picker Interface<br>
 <label for="Year">Year:</label>
 <select name="year" id="year">
   <option value="1990">1990</option>
@@ -95,6 +100,13 @@
 <option value=29>29</option>
 <option value=30>30</option>
 <option value=31>31</option>
-</select>
+</select>'
+	}else{
+  	   document.getElementById("demo").innerHTML = "Please open this page in your android phone's Google Chrome Browser!";
+	}
+	</script>
+            
+        </h1>
+
 </body>
 </html>
